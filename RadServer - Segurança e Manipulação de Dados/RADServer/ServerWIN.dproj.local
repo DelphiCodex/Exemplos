@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/12/13 17:58:08.000.599,D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\RADServer\ServerWIN.dproj=D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\RADServer\CountrySEC.dproj</Transaction>
+    <Transaction>2018/12/13 20:11:23.000.311,D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\RADServer\uCountrySEC.pas=D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\RADServer\uCountry.pas</Transaction>
+    <Transaction>2018/12/13 20:11:23.000.311,D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\RADServer\uCountrySEC.dfm=D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\RADServer\uCountry.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

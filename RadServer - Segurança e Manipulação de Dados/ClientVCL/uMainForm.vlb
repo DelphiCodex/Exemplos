@@ -1,0 +1,16 @@
+﻿[Panel1]
+Coordinates=260,305,47,51
+
+[DBNavigator1]
+Coordinates=10,305,82,51
+
+[DBGrid1]
+Coordinates=436,305,56,33
+Visible=True
+
+[]
+Coordinates=572,10,46,51
+
+[btnGetCountry]
+Coordinates=102,305,86,51
+
