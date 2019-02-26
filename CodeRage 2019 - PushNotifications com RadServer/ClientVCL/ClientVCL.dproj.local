@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/11/14 21:30:22.000.903,=D:\Desenvolvimento\Delphi\Exemplos Embarcadero\Delphi Academy\47-RADServer8\ClientVCL\Unit2.pas</Transaction>
+    <Transaction>2018/11/14 21:31:31.000.919,D:\Desenvolvimento\Delphi\Exemplos Embarcadero\Delphi Academy\47-RADServer8\ClientVCL\UDM.pas=D:\Desenvolvimento\Delphi\Exemplos Embarcadero\Delphi Academy\47-RADServer8\ClientVCL\Unit2.pas</Transaction>
+    <Transaction>2018/11/14 21:31:31.000.919,D:\Desenvolvimento\Delphi\Exemplos Embarcadero\Delphi Academy\47-RADServer8\ClientVCL\UDM.dfm=D:\Desenvolvimento\Delphi\Exemplos Embarcadero\Delphi Academy\47-RADServer8\ClientVCL\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
