@@ -103,11 +103,6 @@
             <Form>MainForm</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="..\Common\uJSONHelper.pas">
-            <Form>JSONDM</Form>
-            <FormType>dfm</FormType>
-            <DesignClass>TDataModule</DesignClass>
-        </DCCReference>
         <DCCReference Include="UDM.pas">
             <Form>dm</Form>
             <FormType>dfm</FormType>

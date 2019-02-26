@@ -28,7 +28,7 @@ implementation
 {$R *.dfm}
 
 uses
-  REST.Types, uJSONHelper;
+  REST.Types;
 
 
 end.
