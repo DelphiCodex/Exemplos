@@ -1,0 +1,68 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Contents
+      Size.Width = 640.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Client Mobile'
+      TabOrder = 0
+    end
+    object Switch1: TSwitch
+      IsChecked = False
+      Position.X = 16.000000000000000000
+      Position.Y = 8.000000000000000000
+      TabOrder = 1
+    end
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Size.Width = 630.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Viewport.Width = 626.000000000000000000
+    Viewport.Height = 426.000000000000000000
+  end
+  object emsCodeRage: TEMSProvider
+    AndroidPush.GCMAppID = '330409365884'
+    ApiVersion = '1'
+    ApplicationId = 'ApplicationID'
+    AppSecret = 'AppSecret'
+    MasterSecret = 'MasterSecret'
+    URLHost = '192.168.50.84'
+    URLPort = 8080
+    Left = 56
+    Top = 56
+  end
+  object pushEvents1: TPushEvents
+    Provider = emsCodeRage
+    OnDeviceTokenReceived = pushEvents1DeviceTokenReceived
+    OnDeviceTokenRequestFailed = pushEvents1DeviceTokenRequestFailed
+    OnPushReceived = pushEvents1PushReceived
+    OnDeviceRegistered = pushEvents1DeviceRegistered
+    Left = 56
+    Top = 128
+  end
+end

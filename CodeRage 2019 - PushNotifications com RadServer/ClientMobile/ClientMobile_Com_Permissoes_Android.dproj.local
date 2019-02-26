@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2018/12/13 17:54:10.000.716,D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\PushMobile\PushMobile.dproj=D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\PushMobile\push101.dproj</Transaction>
+    <Transaction>2018/12/13 17:57:12.000.825,D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\PushMobile\ClientMobile.dproj=D:\projetos\QualiCodex\DESENVOLVIMENTO\RADServer\Exemplos\Exemplo_02 - Academy com MySql\PushMobile\PushMobile.dproj</Transaction>
+    <Transaction>2019/01/22 15:13:20.000.153,D:\Desenvolvimento\Delphi\Exemplos\PushNotifications - Mysql_Modelo\ClientMobile\ClientMobile.dproj=D:\Desenvolvimento\Delphi\Exemplos\PushNotifications - Mysql_Modelo\ClientMobile\ClientMobile_Com_Permissoes_Android.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
