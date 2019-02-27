@@ -34,7 +34,6 @@ type
     emsCodeRage: TEMSProvider;
     pushEvents1: TPushEvents;
     Memo1: TMemo;
-    Switch1: TSwitch;
     procedure pushEvents1DeviceRegistered(Sender: TObject);
     procedure pushEvents1DeviceTokenReceived(Sender: TObject);
     procedure pushEvents1DeviceTokenRequestFailed(Sender: TObject;
@@ -42,7 +41,7 @@ type
     procedure pushEvents1PushReceived(Sender: TObject; const AData: TPushData);
     procedure FormCreate(Sender: TObject);
   private
-    procedure AtivaPush(bStatus : Boolean);
+    procedure AtivaPush;
     { Private declarations }
   public
     { Public declarations }
@@ -59,7 +58,7 @@ uses System.Threading;
 
 procedure TMainForm.FormCreate(Sender: TObject);
 begin
-  AtivaPush(True);
+  AtivaPush;
 end;
 
 procedure TMainForm.pushEvents1DeviceRegistered(Sender: TObject);
@@ -93,14 +92,13 @@ begin
   Memo1.Lines.Add('------------------');
 end;
 
-procedure TMainForm.AtivaPush(bStatus : Boolean);
+procedure TMainForm.AtivaPush;
 begin
   TTask.Run(
     procedure
     begin
       PushEvents1.Active := True;
     end);
-
 end;
 
 end.

@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2019/02/25 13:43:13.000.203,=C:\Users\Ivan\Documents\Embarcadero\Studio\Projects\Unit12.pas</Transaction>
-    <Transaction>2019/02/25 13:43:58.000.553,D:\Desenvolvimento\Delphi\Exemplos\PushNotifications - Mysql_Modelo\ClientMobile\FMobile.pas=C:\Users\Ivan\Documents\Embarcadero\Studio\Projects\Unit12.pas</Transaction>
     <Transaction>2019/02/25 13:43:58.000.553,D:\Desenvolvimento\Delphi\Exemplos\PushNotifications - Mysql_Modelo\ClientMobile\FMobile.fmx=C:\Users\Ivan\Documents\Embarcadero\Studio\Projects\Unit12.fmx</Transaction>
     <Transaction>2019/02/25 13:44:05.000.910,D:\Desenvolvimento\Delphi\Exemplos\PushNotifications - Mysql_Modelo\ClientMobile\ClientMobile.dproj=C:\Users\Ivan\Documents\Embarcadero\Studio\Projects\Project10.dproj</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile iOSSimulator="iPhone5" Android="4200bc6acebb3585"/>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
 	</ActiveMobileDevice>
 </BorlandProject>

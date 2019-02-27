@@ -23,12 +23,6 @@ object MainForm: TMainForm
       Text = 'Client Mobile'
       TabOrder = 0
     end
-    object Switch1: TSwitch
-      IsChecked = False
-      Position.X = 16.000000000000000000
-      Position.Y = 8.000000000000000000
-      TabOrder = 1
-    end
   end
   object Memo1: TMemo
     Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
@@ -46,7 +40,7 @@ object MainForm: TMainForm
     Viewport.Height = 426.000000000000000000
   end
   object emsCodeRage: TEMSProvider
-    AndroidPush.GCMAppID = '330409365884'
+    AndroidPush.GCMAppID = '9308718778'
     ApiVersion = '1'
     ApplicationId = 'ApplicationID'
     AppSecret = 'AppSecret'
